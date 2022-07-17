@@ -1,0 +1,43 @@
+Mapas ( Tabelas com 2 colunas e infinitas linhas )
+
+
+
+class InfoPessoa {
+	int idade;
+	InfoPessoas(this.idade);
+}
+
+
+void main() {
+
+	//chave  valor
+	//nome daniel
+	//cidade  recife
+
+
+	Map<int, String> ddds = Map();
+	ddds[81] = "Recife";
+	ddds[11] = "São Paulo";
+
+	print(ddds);
+	print(ddds.keys);
+	print(ddds.value);
+
+
+	ddds.remove(11);
+
+
+	Map<String, dynamic> pessoa = Map();
+	pessoa["nome"] = "Enzo";
+	pessoa["Idade"] = 10;
+	pessoa["altura"] = 1.50;
+
+
+	Map<String, InfoPessoa> pessoas = Map();
+	pessoas["João"] = InfoPessoa(30);
+	pessoas["Marcelo"] = InfoPessoa(20);
+
+
+
+
+}

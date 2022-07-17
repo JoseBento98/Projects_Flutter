@@ -1,0 +1,55 @@
+Operadores Lógicos 
+
+Comparadores 
+
+> maior 
+>= maior ou igual 
+< menor 
+<= menor ou igual 
+== igual
+!= diferente 
+
+
+exemplo de códigos 
+
+void main() {
+
+	double num1 = 15.0;
+	bool testeComp = (10 != num1);
+	print("Comp: $testComp");
+
+}
+
+Operador OR (OU) ( || ) [ DUAS BARRAS RETAS]
+True + True = True 
+True + False = True 
+False + True = True 
+False + False = False
+
+
+void main() {
+	bool testeOr = (true || false);
+	print("Or $testeOr");
+}
+
+
+
+Operador AND  (E) ( && ) [ DOIS II COMERCIAIS]
+
+True + True = True 
+True + False = False
+False + True = False 
+False + False = False
+
+void main() {
+	bool testAnd =  (false && true);
+	print("AND $testAnd");
+}
+
+Operador NOT
+Iverte o estado ( Uma esclamação antes de um booleano)
+ EX: print(!true); --> False
+
+
+usando muito para fazer testes dentro de seu programa 
+

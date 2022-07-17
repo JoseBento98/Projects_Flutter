@@ -1,0 +1,67 @@
+Heranças
+
+Qunado as classes tem semelhanças se tem a herança
+( Exemplo Animais para cachorro e gato )
+tudo que for comum entre 2 objetos vc pode colcoar
+em uma classe separada e Herdar.
+programação + eficiente e Natural.
+
+
+class Animal{
+
+	String nome;
+	double peso;
+
+	Animal(this.nome,this.peso);
+
+	void correr () {
+	print("$nome Correu");	
+	}
+
+	void FazerSom() {
+	print("$nome fez algum som!");
+	}
+
+
+
+}
+
+classe cachorro extends Animal {
+
+	int fofura;	
+
+	cachorro(String nome, double peso, this.fofura) :  super(nome,peso);
+
+	void brincar() {
+	fofura += 10;
+	print("Fofura do $nome aumentou para $fofura!!");
+	}
+}
+
+
+classe Gato extends Animal {
+
+	Gato(String nome, double peso) : super(nome,peso);
+
+	bool estaAmigavel() {
+	return true;
+	}
+
+
+}
+
+
+void main() {
+
+	Cachorro cachorro = cachorro("Tobi, 10.0, 100);
+	cachorro.FazerSom();
+	cachorro.correr();
+	cachorro.brincar();
+
+	Gato gato = gato("Varlus", 10.0);
+	gato.fazerSom();
+	gato.correr();
+	print(Gato amigavel? ${gato.estaAmivel()} );
+
+
+}

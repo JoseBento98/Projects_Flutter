@@ -1,0 +1,111 @@
+Getters e Setters
+
+atributos e variaveis com _ Underline na frente 
+não devem ser acessados por fora 
+Servem para proteger seus dados
+So utilizar quando os dados realmente precisarem ser
+projetdos 
+apenas onde realemnte for necessario
+
+
+
+
+class Pessoa {
+
+	String nome;
+	int _indade;
+	double _altura;
+		(Atributos da classe)
+
+/*	
+(Forma Nomade)
+
+pessoa(String nome, int Idade, double altura){
+		this.nome = nome;
+		this._idade = idade;
+		this.altura = altura;
+}*/
+
+(Forma Simplificada)
+
+	Pessoa(this.nome,this.idade,this._altura);
+
+	pessoa.nascer(this.nome,this._altura){
+		_idade = 0;
+		print("$nome nasceu!");
+		dormir();
+}
+
+	void dormir(){
+		print("$nome está dormindo!");
+	}
+
+	void aniver(){
+		_idade++;
+	}
+
+	(Liberou atravez do Getter)
+	(Pode pegar + ñ pode alterar)
+	(proteção de escrita)
+
+
+	(Permitindo alteração de valores)
+	(Forma Nomade)
+
+	int get idade {
+	return _idade;
+}
+
+	(forma Simplificada)
+
+	int get idade => _idade;
+
+
+	(Froma Nomade)
+
+	double get altura{
+	return _altura;
+}
+
+	(Forma Simplificada)
+
+	double get altura => _altura;
+
+	(Proteção para o set da altura)
+	
+	set altura(double altura){
+	if(altura > 0.0 && altura < 3.0){
+		_altura = altura;
+}
+
+
+
+}
+
+void main(){
+
+	Pessoa pessoa1 = new Pessoa("joão", 30, 1,80);
+	
+	pessoa pessoa2 = pessoa("José", 28, 1.90);
+	
+	print(pessoa1.nome);
+	print(pessoa2.nome);
+
+
+	print(pessoa1.idade);
+	pessoa1.niver();
+	print(pessoa1.idade);
+
+	pessoa2.dormir();
+
+	Pessoa nene = Pessoa.nascer("Enzo",0.30);
+	print(nene.nome);
+	print(nene.idade);
+
+
+
+
+
+
+}
+

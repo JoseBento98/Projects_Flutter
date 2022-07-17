@@ -1,0 +1,19 @@
+Dart
+Linguagem POO
+
+Do lado do cliente / do lado do servidor 
+
+Site Oficial: https://dart.dev/
+Site para treinar Online: https://dartpad.dev/
+
+pode criar apps para web- mobile- etc ...
+
+todos os codigos são abertos e fechados por 
+{   }
+identação 2 espaços ou tab
+OBS: Toda linha de código termina em ;
+comando print mostra o que esta denstro de ("Hello!, Word.")
+na tela do programa. 
+
+kase sensitive ( Letras maiúsculas e minusculas são diferentes )
+

@@ -1,0 +1,53 @@
+Classes, Atributos, Métodos e Objetos
+new é opcional
+
+instaciar o objeto ( pessoa1 )
+
+
+( Modelo para Objeto class = molde )
+
+class Pessoa {
+
+	String nome;
+	int indade;
+	double altura;
+		(Atributos da classe)
+
+	void dormir(){
+		print("$nome está dormindo!");
+	}
+
+	void aniver(){
+		idade++;
+	}
+
+}
+
+void main(){
+
+	Pessoa pessoa1 = new Pessoa();
+	pessoa1.nome = "João";
+	pessoa1.idade = 30;
+	pessoa1.altura = 1.70;
+
+
+	pessoa pessoa2 = pessoa();
+	pessoa2.nome = "José";
+	pessoa2.idade = 28;
+	pessoa2. altura = 1.90;
+
+
+	print(pessoa1.nome);
+	print(pessoa2.nome);
+
+
+	print(pessoa1.idade);
+	pessoa1.niver();
+	print(pessoa1.idade);
+
+	pessoa2.dormir();
+
+
+
+
+}

@@ -1,0 +1,19 @@
+Realizando operações aritiméticas
+
+a exepreção += 10 adiciona 10 ao valor total 
+++ aumenta 1 numero 
+-- diminui 1 numero 
+
+( para fazer apps não se utiliza muitas operações aritimeticas ) 
+
+
+
+exemplo de código 
+
+void main() {
+	double num1 = 10.0;
+	double num2 = 20.0;
+
+	double result = (num1 * num2)
+	print(result)
+}

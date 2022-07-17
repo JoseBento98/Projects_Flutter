@@ -1,0 +1,27 @@
+Repetições (loops)
+
+for ( ( Faça ate )Quantidade definida] utilizando quando se tem um nuero fixo de repetições)
+while (Quantidade Indefinida] enquanto a condição for valida faça )
+do ( se a condição for falsa ele entra uma vez e depois sai )
+
+
+
+void main() {
+
+	for(int i = 0; i < 10; i++){
+		print(i);
+	}
+
+	int j = 0;
+	while(j < 10){
+		print(j);
+		j++;
+	}
+
+
+	int k = 0;
+	do {
+		print(K);
+		k++;
+	} while (k <10);
+}

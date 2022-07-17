@@ -1,0 +1,24 @@
+Dowload do Flutter
+
+
+site oficial: https://flutter.dev/
+
+Escolha da IDE
+ 
+instalar emulador 
+
+flutter doctor: checar se foi instalado corretamente
+
+flutter channel: permite a troca para uma versão mais atual
+
+flutter --help: informações sobre comandos existentes
+
+flutter version: troca versão para mais antiga 
+
+flutter --version: para obter versão atual do flutter rollback
+
+flutter test: comando para testar aplicação
+
+
+
+Documentação do Flutter sobre Widgets

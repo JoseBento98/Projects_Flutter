@@ -1,0 +1,60 @@
+Criação de variavel
+ 
+// crianção de um comentario 
+seleção de variaveis 
+
+String --> tipo Texto ( sempre dentro de aspas duplas ou simples )
+int --> armazena variaveis do tipo Inteiro
+double --> armazena números do tipo flutuante 
+bool --> valores booleanos verdadeiros e falsos ( true and false )
+dynamic --> armazena variavies de varios tipos 
+
+Concatenação de Strings 
+se usa $nome ou o + 
+se habituar a usar o $ pois sintaxe é + correta 
+( não se usa virgula apenas espaço )
+
+Quando eu declaro uma variavle não necessariamente
+eu preciso declarar o seu valro inicial. 
+
+como saber o tipo de variavel 
+assim que vc delcara uma variavel do certo tipo
+vc so pode armazenar valores do mesmo tipo nesta variavel 
+
+variaveis do tipo (dynamic) pode ser alteradas para diversos tipos
+permite que a variavel assuma qualquer tipo 
+
+
+
+exemplo de código abaixo 
+
+
+void main () {
+
+	//String Variavel
+	String produto; 
+
+	produto = "Arroz";
+
+	print(produto);
+
+	//(Inteiro)quantidade de sacos de arroz
+	int quantidade = 20;
+
+	// flutuante
+	double preço = 10.99;
+
+	print(produto);
+	print(quantidade);
+	print(preço);
+
+	(booleano verdadeiro ou falso, true and false)
+	bool entrega = false;
+
+	print(enrega);
+	print("O " + produto + "Está " + preço);
+	
+	print ("O " + produto + "Está $preço");
+	print("O $produto está $preço);
+	// interpolação  + concatenação
+}

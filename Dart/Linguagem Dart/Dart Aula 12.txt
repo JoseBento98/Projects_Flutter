@@ -1,0 +1,69 @@
+Construtores 
+funções utilizadas para construir o nosso objeto
+ ex: Pessoa();
+
+Função chamada quando se esta construindo um objeto
+
+(Perfeito )
+
+class Pessoa {
+
+	String nome;
+	int indade;
+	double altura;
+		(Atributos da classe)
+
+	
+(Forma Nomade)
+pessoa(String nome, int Idade, double altura){
+		this.nome = nome;
+		this.idade = idade;
+		this.altura = altura;
+}
+
+(Forma Simplificada)
+	Pessoa(this.nome,this.idade,this.altura);
+
+	pessoa.nascer(this.nome,this.altura){
+		idade = 0;
+		print("$nome nasceu!");
+		dormir();
+}
+
+	void dormir(){
+		print("$nome está dormindo!");
+	}
+
+	void aniver(){
+		idade++;
+	}
+
+}
+
+void main(){
+
+	Pessoa pessoa1 = new Pessoa("joão", 30, 1,80);
+	
+	pessoa pessoa2 = pessoa("José", 28, 1.90);
+	
+	print(pessoa1.nome);
+	print(pessoa2.nome);
+
+
+	print(pessoa1.idade);
+	pessoa1.niver();
+	print(pessoa1.idade);
+
+	pessoa2.dormir();
+
+	Pessoa nene = Pessoa.nascer("Enzo",0.30);
+	print(nene.nome);
+	print(nene.idade);
+
+
+
+
+
+
+}
+

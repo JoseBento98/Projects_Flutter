@@ -1,0 +1,55 @@
+Condicionais 
+
+
+if ( SE )
+else if ( Caso Contrario)
+else (Caso Nem uma )
+OBS: Podemos colocar quantos [else if] quisermos
+
+desta forma nosso código pode ter varias formas
+de tomada de decisão.
+
+Operador ternario 
+
+
+
+ex de código
+
+
+void main() {
+
+	double nota = 7.0;
+
+	if(nota < 5.0) {
+		print("Exame! :( ");
+	} else if (nota == 10.0) {
+		print("Sucesso! XD");
+	} else {
+		print("Sucesso! :)" );
+	}
+
+
+	// Forma Nomade 
+	/*( para comentar bloco )*/
+	
+	bool aprovado = true;
+	string info;
+
+	if(aprovado){
+		info = "Aprovado";
+	} else {
+		info = "Reprovado...";
+
+	}
+
+
+	( Melhor Maneira de Sintaxe ) 
+	info = aprovado ? "Aprovado!!" : "Reprovado...";
+
+
+	string nome; 
+	string info2 = nome ?? "Não Informado!";
+	print(info2)
+
+	print("FIM!")
+}

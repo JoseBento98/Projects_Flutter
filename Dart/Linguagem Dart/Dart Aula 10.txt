@@ -1,0 +1,18 @@
+Escopo das Variáveis
+A variavel que estão fora nos conseguimos acessar de dentro
+mais as que estão dentro nao conseguirmos acessar de fora
+
+
+double res; // sem ele resulta erro no código
+
+void main(){
+
+	soma(10.0,20.0);
+	print(res);
+
+
+}
+
+void soma(doble a, double b){
+	res = a + b;
+}

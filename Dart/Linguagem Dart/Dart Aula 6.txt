@@ -1,0 +1,24 @@
+Switch
+
+Interesante quando se tem variaveis de valores limitador
+
+
+
+void main() {
+
+	String Linguagem = "Dart";
+
+	switch(linguagem) {
+		case "Dart":
+			print("Dart!!!");
+			break;
+		case "Java":
+			print("Java :(");
+			break;
+		case "Swift":
+			print("Swift :(");
+			break;
+			default:
+				print("Outra..!")
+		}
+	}

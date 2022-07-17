@@ -1,0 +1,47 @@
+Listas 
+( Objetos que são capazes de armazenas listas de objetos)
+( detalhe no For la embaixo ) 
+
+
+
+
+class Pessoa {
+	String nome;
+	int idade;
+
+	Pessoa(this.nome, this.idade);
+	
+}
+
+
+
+void main() {
+	List<String> nome = ["Daniel", "Mari", "Thiago"];
+
+	print(nomes[0]);
+	nomes.add("Marcos");
+	print(nomes);
+	
+	print(nomes.length);
+
+	nomes.removeAt(2);
+	print(nomes;
+		
+	nomes.insert(1, "Thiago");
+	print(nomes);
+	
+	print(nomes.contains("Thiago"));
+
+
+	List<Pessoa> pessoas = List();
+
+	pessoas.add(pessoa("Marcelo", 30));
+	pessoas.add(pessoa("Maria", 20));
+
+
+	for(Pessoa p in pessoas){
+	print(p.nome);
+}
+	
+
+}

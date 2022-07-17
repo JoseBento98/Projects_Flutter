@@ -1,0 +1,132 @@
+Curso DIO
+
+operações
+
+void main() {
+
+	int valor1 = 15;
+	int valor2 = 30;
+
+	int resultado = valor1 + valor2;
+	print(resultado);
+
+}
+
+void main() {
+//igualdade ( true and false)
+
+	int operador1 = 1;
+	int operador2 = 1;
+
+	bool resultado = operador1 == operador2;
+	print(resultado);
+
+}
+
+
+void main() {
+//Diferença
+
+
+	int operador1 = 1;
+	int operador2 = 1;
+	double operador3 = 1.1;
+
+	bool resultado = operador1 != operador 2;
+	print(resultado)
+
+}
+
+void main() {
+//Maiio Que
+
+
+	int operador1 = 1;
+	int operador2 = 1;
+	double operador3 = 1.1;
+
+	bool resultado = operador1 > operador 2;
+	print(resultado)
+
+}
+
+
+void main() {
+//Menor Que
+
+
+	int operador1 = 1;
+	int operador2 = 1;
+	double operador3 = 1.1;
+
+	bool resultado = operador1 < operador 2;
+	print(resultado)
+
+}
+
+void main() {
+//Maior igual
+
+
+	int operador1 = 1;
+	int operador2 = 1;
+	double operador3 = 1.1;
+
+	bool resultado = operador1 >= operador 2;
+	print(resultado)
+
+}
+
+void main() {
+//Menor Igual
+
+
+	int operador1 = 1;
+	int operador2 = 1;
+	double operador3 = 1.1;
+
+	bool resultado = operador1 <= operador 2;
+	print(resultado)
+
+}
+
+IS, AND, OR e NOT 
+
+
+void main() {
+// IS
+	print( 1 is int);
+
+}
+
+
+void main() {
+//AND
+// ^ e a mesma coisa e ( algo e outra coisa )	
+	bool operador1 = true;
+	bool operador2 = true;
+
+	bool resultado = operador1 && oprador2;
+	print(resultado);
+}
+
+void main() {
+//OR ( OU ) represetando por ||
+	bool operador1 = true;
+	bool operador2 = true;
+
+	bool resultado = operador1 || oprador2;
+	print(resultado);
+}
+
+
+void main() {
+//Not --> ! Negação
+	bool operador1 = true;
+	bool operador2 = true;
+
+	bool resultado = !true
+	print(resultado);
+}
+
+

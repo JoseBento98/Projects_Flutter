@@ -1,0 +1,21 @@
+Widgets
+
+Os Aplicativos construídos com flutter são
+criados por meio de uma hierarquia de composição
+widgets.
+
+O Widget é um componenete que pode ser
+composto por um ou mais widgets.
+
+essa arquitetura permite diversas composições,
+tornando possível fazer quase qualquer coisa.
+
+
+ex: Botão 
+Botão tem um texto, uma interação, um incone
+texto = widget
+interação = widget
+incone = widget
+
+widgets constroi uma arvore 
+onde pode-se fazer diversas coisas.

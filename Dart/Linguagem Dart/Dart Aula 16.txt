@@ -1,0 +1,29 @@
+Modificadores, Static, Const e Final
+
+(Static nao precisa instaciar um objeto para acessar uma variavel)
+( Const cria um número constante que não pode ser alterado em tempo de compilação)
+( Final em tempo de execução, varivel fica inalteravel não pode pegar um objeto e colcoar outro objeto nele )
+
+
+
+
+class Valores {
+
+	Static int vezesClicado;
+
+}
+
+
+class pessoa {
+
+
+}
+
+void main() {
+
+	Valores.vezesClicado = 2;
+
+	const numero = 3;
+
+	final Pessoa pessoa = Pessoa();
+}

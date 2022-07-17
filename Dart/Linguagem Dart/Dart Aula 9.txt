@@ -1,0 +1,27 @@
+Funções (Parametros Opcionais e Anonimos )
+
+
+
+void main() {
+
+	criarBotao("BotaoSair", botaoCriado);
+
+	criarBotao("botaoCamera",(){
+		print("Botao criado por func anonima");
+	}      
+
+}
+
+void botaoCriado() {
+	print("Botão Criado!!!");
+}
+
+
+
+void criarBotao(String texto, functionFunc, {String cor, double Largura}){
+	print(texto);
+	print(cor ?? "preto");
+	print(largura ?? 10.0);
+(padrão ??)
+	criadoFunc();
+}
